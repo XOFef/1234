@@ -20,7 +20,7 @@
             <TextBox HorizontalAlignment="Left" Margin="263,187,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
             <TextBox HorizontalAlignment="Left" Margin="263,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
         </Grid>
-        <Button Content="GET" HorizontalAlignment="Left" Margin="117,768,0,0" VerticalAlignment="Top" Height="42" Width="90"/>
+        <Button Content="GET" HorizontalAlignment="Left" Margin="117,768,0,0" VerticalAlignment="Top" Height="42" Width="90" Click="Button_Click"/>
         <Button Content="POST" HorizontalAlignment="Left" Margin="247,768,0,0" VerticalAlignment="Top" Height="42" Width="90"/>
         <Button Content="PUT" HorizontalAlignment="Left" Margin="385,768,0,0" VerticalAlignment="Top" Height="42" Width="90"/>
         <Button Content="DELETE" HorizontalAlignment="Left" Margin="518,768,0,0" VerticalAlignment="Top" Height="42" Width="90"/>
