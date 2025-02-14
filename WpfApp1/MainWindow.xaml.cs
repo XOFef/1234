@@ -28,6 +28,32 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Вы нажали кнопку!", Name = "НЯЯЯЯ", MessageBoxButton.YesNo, MessageBoxImage.Error );
+            Twowindow twowindow = new Twowindow();
+            twowindow.Show();
+            this.Close();
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            post.Background = Brushes.Red;
+        }
+
+        private void post_MouseLeave(object sender, MouseEventArgs e)
+        {
+            post.Background = Brushes.Purple;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            label.Content = "Hello!";
+        }
+
+        private void del_Click(object sender, RoutedEventArgs e)
+        {
+            grid.Visibility = Visibility.Hidden;
+            put.Visibility = Visibility.Hidden;
+            post.Visibility = Visibility.Hidden;
+            del.Visibility = Visibility.Hidden;
         }
     }
 }
